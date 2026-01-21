@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .calculator {
+      background-color: #840000;
+      padding: 100px;
+      border-radius: 50px;
+      width: 300px;
+    }
+
+    h1{
+        background-color: #ffffff;
+    }
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="calculator">
+    <h1>Basic Calculator Display</h1>
+    <br>
+  <div class="display" id="display"></div>
+  
+  <div class="buttons" id="buttons">
+    <div>4 + 2</div>
+    <div>6</div>
+    <div>4 − 2</div>
+    <div>2</div>
+    <div>4 × 2</div>
+    <div>8</div>
+    <div>4 ÷ 2</div>
+    <div>2</div>
+  </div>
+</div>
+
+<script>
+  // Numbers
+  let x = 4;
+  let y = 2;
+
+  // Operations
+  let add = x + y;
+  let subtract = x - y;
+  let multiply = x * y;
+  let divide = x / y;
+
+  // Average
+  let average = (x + y) / 2;
+
+  // Array
+  let results = [add, subtract, multiply, divide];
+
+</script>
+
+</body>
+</html>
